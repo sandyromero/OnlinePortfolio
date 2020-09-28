@@ -325,6 +325,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 6rem;
     margin-bottom: 5rem;
 }
 
@@ -333,8 +334,6 @@ li{
 }
 
 .portfolio-img{
-    /*width: 50rem;
-    flex: 2;*/
     flex: 1;
 }
 
