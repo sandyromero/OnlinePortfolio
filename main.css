@@ -106,7 +106,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: rgb(197, 147, 55);
+    background-color: rgb(44, 13, 85);
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -134,7 +134,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #175803, #44990b);
+    background: linear-gradient(to top, #ffe383, #e157fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -204,7 +204,7 @@ li{
 /* color: hot pink #fd57bf*/
 .landing-text h1{
     font-size: 20rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Sacramento;
     background: linear-gradient(to bottom, #ffe838, #e157fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
