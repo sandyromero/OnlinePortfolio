@@ -14,7 +14,7 @@ html{
 body{
     width: 100%;
     height: 100%;
-    background-image:url("images/sitebg.jpg");
+    background-color: #333333;
     background-size: cover;
 }
 
@@ -99,6 +99,7 @@ img{
 header{
     width: 100%;
     height: 100vh;
+    background-color: rgba(0, 0, 0, 0.178);
 }
 .top-nav{
     width: 100%;
@@ -106,7 +107,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: rgb(44, 13, 85);
+    background-color: #ffae00;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -205,7 +206,7 @@ li{
 .landing-text h1{
     font-size: 20rem;
     font-family: Sacramento;
-    background: linear-gradient(to bottom, #ffe838, #e157fd);
+    background: linear-gradient(0deg,#ff6720, #ffff00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -213,8 +214,10 @@ li{
 }
 
 .landing-text h6{
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 3rem;
+    font-weight: 300
+    ;
+    font-family: Montserrat;
 }
 /*End HEADER =================================================================*/
 
@@ -359,7 +362,7 @@ li{
     margin-top: 2.5rem;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #e157fd;
+    color: #ffae00;
     transition: color 150ms;
 }
 
@@ -370,9 +373,9 @@ li{
 
 /*Start EXPERIENCE -----------------------------------------------------------*/
 .timeline ul{
-    border-left: 4px solid yellow;
+    border-left: 4px solid #333333;
     border-radius: .8rem;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0, 0, 0, 0.336);
     margin: 0 auto;
     position: relative;
     padding: 5rem;
@@ -421,7 +424,7 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px pink;
+    box-shadow: 0 0 0 4px #ffae00;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
@@ -432,7 +435,7 @@ li{
 
 /*Start CONTACT --------------------------------------------------------------*/
 .contact{
-    background-color: #221e3f;
+    background-color: #333333;
 }
 
 form{
@@ -451,12 +454,12 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #fd57bf;
+    outline-color: #ffae00;
 }
 
 input[type="submit"]{
     width: initial;
-    background-color: #fd57bf;
+    background-color: #ffae00;
     color: #eee;
     padding: 1rem 2rem;
     border-radius: .8rem;
@@ -474,7 +477,7 @@ input[type="submit"]:hover{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #16162d;
+    background-color: #000000;
     padding: 2rem 0;
     position: relative;
 }
@@ -506,13 +509,13 @@ input[type="submit"]:hover{
 /*Start ANIMATION ------------------------------------------------------------*/
 @keyframes pulse {
     0%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+        box-shadow: 0 0 0 0 rgba(255, 174, 0, 0.99);
     }
     70%{
-        box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 2rem rgba(255, 174, 0, 0);
     }
     100%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0
+        box-shadow: 0 0 0 0 rgba(255, 174, 0, 0
         );
     }
 }
