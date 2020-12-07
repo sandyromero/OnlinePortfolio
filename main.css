@@ -308,9 +308,10 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffffff;
+    border: 3px solid #ffff00;
     /*background-color: #e157fd;*/
-    background: linear-gradient(to right, #ff6720, #ffff00);
+    /*background: linear-gradient(to right, #ff6720, #ffff00);*/
+    background-color: #333333;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
