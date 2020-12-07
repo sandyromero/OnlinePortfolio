@@ -54,7 +54,8 @@ img{
 
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgba(0, 0, 0, 0.5);
+    font-family: Permanent Marker;
+    color: rgba(0, 0, 0, 0.75);
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -285,7 +286,7 @@ li{
     color: #d5641c;
 }
 
-.fa-envelope:hover{
+.fa-envelope-square:hover{
     color: #ffe838;
 }
 /*End ABOUT ==================================================================*/
