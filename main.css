@@ -397,7 +397,7 @@ li{
 
 .timeline h1{
     font-size: 2rem;
-    color: white;
+    color: yellow;
     text-transform: uppercase;
     font-weight: 300;
     margin-top: 1rem;
@@ -441,7 +441,7 @@ li{
     left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #ffae00;
+    background-color: #333333;
 }
 /*End EXPERIENCE =============================================================*/
 
