@@ -386,7 +386,7 @@ li{
 .timeline ul{
     border-left: 4px solid #333333;
     border-radius: .8rem;
-    background-color: rgba(0, 0, 0, 0.336);
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 0 auto;
     position: relative;
     padding: 5rem;
@@ -405,7 +405,7 @@ li{
     opacity: .75;
 }
 
-.timeline .date{
+.timeline .date{ /*The line separations*/
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -434,14 +434,14 @@ li{
     font-size: 1.5rem;
 }
 
-.timeline .date::after{
+.timeline .date::after{  /*The dots*/
     content: '';
     box-shadow: 0 0 0 4px #ffff00;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #313534;
+    background-color: #ffae00;
 }
 /*End EXPERIENCE =============================================================*/
 
