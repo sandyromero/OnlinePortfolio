@@ -141,9 +141,11 @@ li{
     -webkit-text-fill-color: transparent;
 }
 
+/*Open Menu*/
 .top-nav.open{
     top: 0;
     border-radius: initial;
+    font-family: Italiana;
 }
 
 .menu-toggler{
@@ -206,11 +208,11 @@ li{
 /* color: hot pink #fd57bf*/
 .landing-text h1{
     font-size: 20rem;
-    font-family: Sacramento;
+    font-family: Italiana;
     background: linear-gradient(0deg,#ff6720, #ffff00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 1rem;
+    padding: 5rem;
     user-select: none;   
 }
 
