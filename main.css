@@ -99,12 +99,12 @@ img{
 header{
     width: 100%;
     height: 100vh;
-    background-image: url("images/ALBCaptureBW.JPG");
-    img{
-        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%);
-    }
+    background-color: #333333;
+    /*img{
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 
+        filter: grayscale(100%); */
 }
+
 .top-nav{
     width: 100%;
     height: 100vh;
@@ -673,4 +673,63 @@ input[type="submit"]:hover{
         right:2rem;
     }
 }
+
+/* Need to figure out for iphone-------------------------------------------------
+@media screen and (max-width: 375px) {
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .landing-text h1{
+        font-size: 8rem;
+    }
+
+    .landing-text h6{
+        font-size: 1.4rem;
+    }
+
+    .nav-link{
+        font-size: 3.5rem;
+    }
+
+    .about .container{
+        flex-direction: column;
+        max-width: 370px;
+        padding: 10px;
+    }
+
+    .profile-img{
+        margin: 0 0 7rem 0;
+    }
+
+    .portfolio-item{
+        flex-direction: column;
+    }
+
+    .portfolio-img{
+        margin: 0 0 2rem 0;
+        order: 1;
+    }
+
+    .portfolio-description{
+        margin: 0;
+        order: 2;
+    }    
+
+    .timeline p{
+      font-size: 1.6rem; 
+    }
+
+    .timeline .date::before{
+        font-size: 1.4rem;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    .up{
+        right:2rem;
+    }  */
 /*End MEDIA QUERIES ==========================================================*/
