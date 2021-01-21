@@ -209,7 +209,7 @@ li{
     text-align: center;
     z-index: 1;
 }
-/* color: hot pink #fd57bf*/
+
 .landing-text h1{
     font-size: 20rem;
     font-family: Italiana;
@@ -218,6 +218,7 @@ li{
     -webkit-text-fill-color: transparent;
     padding: 5rem;
     user-select: none;   
+    
 }
 
 .landing-text h6{
@@ -225,7 +226,7 @@ li{
     font-weight: 300;
     font-family: Montserrat;
     color:white;
-    text-shadow: 2px 8px 8px #000000;
+    /*text-shadow: 2px 8px 8px #000000;*/
 }
 /*End HEADER =================================================================*/
 
