@@ -88,7 +88,7 @@ img{
 } */
 
 .section-heading h6{
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 300;
 }
 
@@ -389,6 +389,23 @@ li{
 /*Start BRANDING ------------------------------------------------------------*/
 .branding{
     background-color: #ffffff;
+}
+
+#branding-style{
+    padding: 2rem;
+}
+#branding-style h1{
+    color: #073b4c;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#branding-style h6{
+    color: #073b4c;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 /*End BRANDING=================================================================*/
 
