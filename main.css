@@ -117,6 +117,7 @@ header{
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
+    box-shadow: 2px 8px 30px #00000065;
 }
 
 .nav-list{
@@ -142,7 +143,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top,#b39759, #ad6f6f);
+    background: linear-gradient(to top,#b39759, #cc6e6e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -259,7 +260,7 @@ li{
 .circle {
     height: 600px;
     width: 600px;
-    background-image: linear-gradient(to right, #ad6f6f , #073b4c);
+    background-image: linear-gradient(to right, #cc6e6e , #073b4c);
     border-radius: 50%;
     margin: auto;
     margin-top: 60px;
@@ -655,27 +656,31 @@ input[type="submit"]:hover{
     }
 
     .circle {
-        height: 300px;
-        width: 300px;
+        height: 500px;
+        width: 500px;
         background-image: linear-gradient(to right, #ad6f6f , #073b4c);
         border-radius: 50%;
         margin: auto;
         margin-top: 75px;
       } 
     .landing-text h1{
-        font-size: 15rem;
+        font-size: 10rem;
     }
 
     .landing-text h6{
         font-size: 1.7rem;
     }
 
-    .nav-list{
-        flex-direction: column;   
+   #social-media-icons{
+       /* flex-direction: column;  */
+        padding: 10px;
     }
-
+    .nav-list{
+        width: 60vh;
+    }
     li{
         margin: 2rem 0;
+        padding: 10px;
     }
 
     .nav-link{
@@ -783,8 +788,15 @@ input[type="submit"]:hover{
     }
 }
 
-/* Need to figure out for iphone-------------------------------------------------
-@media screen and (max-width: 375px) {
+/* Need to figure out for iphone-------------------------------------------------*/
+@media screen and (max-width: 414px) {
+
+    body{
+        width: 100%;
+        height: 100%;
+        background-color: #073b4c;
+        background-size: cover;
+    }
     .menu-toggler{
         top: 2rem;
         right: 2rem;
@@ -798,14 +810,24 @@ input[type="submit"]:hover{
         font-size: 1.4rem;
     }
 
+    #port{
+        text-align: center;
+        color: white;
+    }
+    
+    #folio{
+        text-align: center;
+        color: #b39759;
+    }
+
     .nav-link{
         font-size: 3.5rem;
     }
 
     .about .container{
         flex-direction: column;
-        max-width: 370px;
-        padding: 10px;
+        max-width: 100%;
+        padding: 5px;
     }
 
     .profile-img{
