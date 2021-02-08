@@ -416,6 +416,11 @@ li{
 #branding-style{
     padding: 2rem;
 }
+
+#branding-style img:hover{  
+    box-shadow: 0 0 2px 1px #ad6f6f;  
+}
+
 #branding-style h1{
     color: #073b4c;
     font-family: Montserrat;
