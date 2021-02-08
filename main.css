@@ -431,7 +431,47 @@ li{
 }
 /*End BRANDING=================================================================*/
 
-/*Start PORTFOLIO ------------------------------------------------------------*/
+/*Start POSTERS ---------------------------------------------------------------*/
+.posters{
+    background-color: #ffffff;
+}
+
+#posters-row{
+    padding-bottom: 7rem;
+}
+#posters-row img{
+    height: 50rem;
+    width: auto;
+    border: 15px solid white;
+    box-shadow: 2px 8px 15px #00000065;
+}
+
+#posters-row h3{
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    color: #073b4c;
+    padding-bottom: 10px;
+    text-align: center;
+    /*transform: rotate(-90deg);*/
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.clearfix {
+    overflow: auto;
+  }
+
+
+/*End POSTERS==================================================================*/
+
+/*Start PORTFOLIO -------------------------------------------------------------*/
 .portfolio{
     background-color: white;
 }
