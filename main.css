@@ -445,7 +445,7 @@ li{
     padding-bottom: 7rem;
 }
 #posters-row img{
-    height: 50rem;
+    height: 60rem;
     width: auto;
     border: 15px solid white;
     box-shadow: 2px 8px 15px #00000065;
@@ -457,10 +457,18 @@ li{
     font-size: 20px;
     font-weight: 700;
     color: #073b4c;
+    padding-bottom: .3rem;
+    text-align: center;
+    /*transform: rotate(-90deg);*/  
+}
+
+#posters-row h4{
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #073b4c;
     padding-bottom: 10px;
     text-align: center;
-    /*transform: rotate(-90deg);*/
-    
+    /*transform: rotate(-90deg);*/  
 }
 
 .center {
