@@ -423,6 +423,7 @@ li{
 
 #branding-style{
     padding: 2rem;
+    margin-bottom: 10rem;
 }
 
 #branding-style img:hover{  
@@ -433,14 +434,21 @@ li{
     color: #073b4c;
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid#b39759;
+    width: 30%;
 }
+
+
 
 #branding-style h6{
     color: #073b4c;
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /*End BRANDING=================================================================*/
 
