@@ -409,12 +409,21 @@ li{
 /*End CONTENT=================================================================*/
 
 /*Start BRANDING ------------------------------------------------------------*/
+.branding-container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
 .branding{
     background-color: #ffffff;
 }
 
 #branding-style{
     padding: 2rem;
+    
 }
 
 #branding-style img:hover{  
