@@ -866,6 +866,16 @@ input[type="submit"]:hover{
         background-color: #073b4c;
         background-size: cover;
     }
+
+    .circle{
+        height: 300px;
+        width: 300px;
+        background-image: linear-gradient(to right, #cc6e6e , #073b4c);
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 60px;
+        padding-bottom: 3rem;
+    }
     .menu-toggler{
         top: 2rem;
         right: 2rem;
@@ -896,11 +906,19 @@ input[type="submit"]:hover{
     .about .container{
         flex-direction: column;
         max-width: 100%;
-        padding: 5px;
+        padding: 2rem;
     }
 
     .profile-img{
-        margin: 0 0 7rem 0;
+        margin-right: auto;
+        padding-top: 3rem;
+    }
+
+    #posters-row img{
+        height: 45rem;
+        width: auto;
+        border: 15px solid white;
+        box-shadow: 2px 8px 15px #00000065;
     }
 
     .portfolio-item{
