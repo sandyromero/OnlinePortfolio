@@ -500,6 +500,17 @@ li{
 
 /*End POSTERS==================================================================*/
 
+/*Start PHOTO EDITING----------------------------------------------------------*/
+.photo-editing{
+    background-color: white;
+}
+
+#photo-editing img{
+    height: 30rem;
+    width: auto;
+}
+/*End PHOTO EDITING============================================================*/
+
 /*Start PORTFOLIO -------------------------------------------------------------*/
 .portfolio{
     background-color: white;
