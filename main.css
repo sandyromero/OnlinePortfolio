@@ -567,6 +567,32 @@ li{
 }
 /*End PORTFOLIO ==============================================================*/
 
+/*Start EDITORIALS -----------------------------------------------------------*/
+.editorials{
+    background-color: #ffffff;
+}
+
+#editorials-row h3{
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    color: #073b4c;
+    padding-bottom: .3rem;
+    text-align: left;
+    /*transform: rotate(-90deg);*/  
+}
+
+#editorials-row h4{
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #073b4c;
+    padding-bottom: 10px;
+    text-align: left;
+    /*transform: rotate(-90deg);*/  
+}
+/*End EDITORIALS =============================================================*/
+
 /*Start EXPERIENCE -----------------------------------------------------------*/
 .timeline ul{
     border-left: 4px solid #ad6f6f;
