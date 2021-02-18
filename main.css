@@ -305,12 +305,12 @@ li{
 #social-media-icons{
     justify-content: left;
 }
-.social-media{
+.social-medias{
     margin-top: 10rem;
     margin-left: 0;
 }
 
-.social-media i{
+.social-medias i{
     color: #b39759;
     font-size: 5rem;
     transition: color 350ms;
@@ -507,10 +507,18 @@ li{
     background-color: white;
 }
 
+#photo-editing-row h1{
+    color: #ad6f6f;
+    text-align: center;
+    font-family: Montserrat;
+    border: 2px solid #ad6f6f;
+}
 #photo-editing img{
     height: 30rem;
     width: auto;
 }
+
+
 /*End PHOTO EDITING============================================================*/
 
 /*Start PORTFOLIO -------------------------------------------------------------*/
@@ -570,6 +578,9 @@ li{
 /*Start EDITORIALS -----------------------------------------------------------*/
 .editorials{
     background-color: #ffffff;
+    border-bottom: 4px solid #b39759;
+    /*background-image: url('images/jmt\ cutout.png');
+    background-size: cover;*/
 }
 
 #editorials-row h3{
@@ -592,6 +603,18 @@ li{
     /*transform: rotate(-90deg);*/  
 }
 /*End EDITORIALS =============================================================*/
+
+/*Start SOCIAL MEDIA ---------------------------------------------------------*/
+.social-media{
+    background-color: #ffffff;
+}
+/*End SOCIAL MEDIA ===========================================================*/
+
+/*Start ILLUSTRATION ---------------------------------------------------------*/
+.illustration{
+    background-color: #ffffff;
+}
+/*End ILLUSTRATION ===========================================================*/
 
 /*Start EXPERIENCE -----------------------------------------------------------*/
 .timeline ul{
