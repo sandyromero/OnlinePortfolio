@@ -127,6 +127,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 li{
