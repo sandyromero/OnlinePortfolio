@@ -725,8 +725,8 @@ input[type="submit"]:hover{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #353535;
-    color: white;
+    background-color: #073342;
+    color: #b39759;
     padding: 2rem 0;
     position: relative;
 }
