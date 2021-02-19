@@ -15,19 +15,19 @@ $(document).ready(function () {
     $('nav a[href*="#"]').on('click', function () {
        $('html, body').animate({
         scrollTop: $($(this).attr('href')).offset().top - 100
-       }, 1000);
+       }, 2000);
     });
 
     //bring to top button function
     $('#up').on('click', function () {
         $('html, body').animate({
             scrollTop: 0
-           }, 2000);  
+           }, 2600);  
     });
 
     AOS.init({
         easing: 'ease',
-        duration: 1800,
+        duration: 2000,
         once: true
     });
 
