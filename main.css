@@ -623,7 +623,6 @@ li{
     height: 100%;
     margin: 0 auto;
     position: relative;
-
 }
 
 .social-media{
@@ -639,11 +638,24 @@ li{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+
 /*End SOCIAL MEDIA ===========================================================*/
 
 /*Start ILLUSTRATION ---------------------------------------------------------*/
+.illustration-container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
 .illustration{
     background-color: #ffffff;
+}
+
+.illustration img {
+    box-shadow: 2px 8px 15px #00000052;
 }
 
 /*End ILLUSTRATION ===========================================================*/
