@@ -615,15 +615,17 @@ li{
     /*transform: rotate(-90deg);*/  
 }
 
-#editorials-row img{
+#infographic{
     height: 60rem;
     width: auto;
     box-shadow: 2px 8px 15px #000000;
 }
 
 #jmt-spread{
-    background-color: #ad6f6fe3;
-    background-image: linear-gradient(to top, #ad6f6f, #073b4c);
+    height: 60rem;
+    width: auto;
+    /*background-color: #fff;
+    background-image: linear-gradient(to top, #ad6f6f, #073b4c)*/
 }
 
 
