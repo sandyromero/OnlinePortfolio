@@ -605,11 +605,19 @@ li{
     font-family: Montserrat;
     font-size: 15px;
     color: #073b4c;
-    padding-bottom: 10px;
     text-align: left;
     /*transform: rotate(-90deg);*/  
 }
 
+#editorials-row h6{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 10px;
+    color: #ad6f6f;
+    text-align: left;
+    padding-bottom: 5px;
+    /*transform: rotate(-90deg);*/  
+}
 #infographic{
     height: 60rem;
     width: auto;
