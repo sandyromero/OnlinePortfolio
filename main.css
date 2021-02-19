@@ -579,8 +579,8 @@ li{
 .editorials{
     background-color: #ffffff;
     border-bottom: 4px solid #b39759;
-    /*background-image: url('images/jmt\ cutout.png');
-    background-size: cover;*/
+    background-image: url('images/jmt\ cutout.png');
+    background-size: cover;
 }
 
 #editorials-row h3{
@@ -602,11 +602,42 @@ li{
     text-align: left;
     /*transform: rotate(-90deg);*/  
 }
+
+#editorials-row img{
+    height: 60rem;
+    width: auto;
+    box-shadow: 2px 8px 15px #000000;
+}
+
+#jmt-spread{
+    background-color: #ad6f6fe3;
+    background-image: linear-gradient(to top, #ad6f6f, #073b4c);
+}
+
+
 /*End EDITORIALS =============================================================*/
 
 /*Start SOCIAL MEDIA ---------------------------------------------------------*/
+.social-media-container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
 .social-media{
     background-color: #ffffff;
+}
+
+.social-media img{
+    box-shadow: 2px 8px 15px #00000052;
+    border: 15px solid rgb(245, 245, 245);
+    height: 60rem;
+    width: auto;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 /*End SOCIAL MEDIA ===========================================================*/
 
@@ -614,6 +645,7 @@ li{
 .illustration{
     background-color: #ffffff;
 }
+
 /*End ILLUSTRATION ===========================================================*/
 
 /*Start EXPERIENCE -----------------------------------------------------------*/
