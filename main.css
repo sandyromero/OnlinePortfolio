@@ -284,12 +284,13 @@ li{
 #profile-img{
     position: relative;
     left: 80px;
+    top: 30px;
 }
 
 #about-col{
     border-left: 4px solid #b39759;
     padding-left: 2rem;
-    padding-right: 10rem;
+    padding-right: 3rem;
     color: white;
 }
 
@@ -308,8 +309,7 @@ li{
 
 #quote{
     position: relative;
-    top: -225px;
-    left: -20px;
+    top: -170px;
     width: 75%;
 }
 
