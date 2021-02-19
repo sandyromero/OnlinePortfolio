@@ -585,8 +585,8 @@ li{
 /*Start EDITORIALS -----------------------------------------------------------*/
 .editorials{
     background-color: #ffffff;
-    border-bottom: 4px solid #b39759;
-    background-image: url('images/jmt\ cutout\ 3.png');
+    /*border-bottom: 4px solid #b39759;
+    background-image: url('images/jmt\ cutout\ 3.png');*/
     background-size: cover;
 }
 
