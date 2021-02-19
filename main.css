@@ -525,11 +525,6 @@ li{
     font-family: Montserrat;
     border: 2px solid #ad6f6f;
 }
-#photo-editing img{
-    height: 30rem;
-    width: auto;
-}
-
 
 /*End PHOTO EDITING============================================================*/
 
@@ -591,7 +586,7 @@ li{
 .editorials{
     background-color: #ffffff;
     border-bottom: 4px solid #b39759;
-    background-image: url('images/jmt\ cutout.png');
+    background-image: url('images/jmt\ cutout\ 3.png');
     background-size: cover;
 }
 
@@ -636,7 +631,6 @@ li{
     width: 90%;
     height: 100%;
     margin: 0 auto;
-    position: relative;
 }
 
 .social-media{
@@ -646,7 +640,7 @@ li{
 .social-media img{
     box-shadow: 2px 8px 15px #00000052;
     border: 15px solid rgb(245, 245, 245);
-    height: 60rem;
+    height: 45rem;
     width: auto;
     border-radius: 30px;
     margin-left: 10px;
