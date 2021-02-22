@@ -283,7 +283,7 @@ li{
 
 #profile-img{
     position: relative;
-    left: 80px;
+    left: 50px;
     top: 30px;
 }
 
@@ -353,7 +353,11 @@ li{
 }
 
 .fa-envelope-square:hover{
-    color: #ffe838;
+    color: #ad6f6f;
+}
+
+.fa-imdb:hover{
+    color: #dab506;
 }
 /*End ABOUT ==================================================================*/
 
